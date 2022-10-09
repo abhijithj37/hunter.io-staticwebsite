@@ -1,0 +1,497 @@
+
+
+body{
+    margin:0;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    overflow-x:hidden ;
+    
+    
+
+
+
+}
+.header{
+    
+    display:flex;
+    height: 84px;
+  border-bottom: 1px solid rgb(230, 222, 222);
+  display:flex;
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+  
+
+
+}
+.header1{
+    display: flex;
+    flex: 1;
+    background-color:white;
+    justify-content: flex-end;
+
+}
+
+
+.header2{
+    display: flex;
+    flex: 1.5;
+    background-color: white;
+
+}
+.header3{
+    display: flex;
+    flex: 1.5;
+    background-color: white;
+
+}
+#logo{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    bottom: 26px;
+}
+
+.nav1{
+    display: flex;
+    
+    
+    
+
+
+}
+.nav1 ul{
+    list-style-type: none;
+    display: flex;
+
+    color: rgb(100, 96, 96);
+    position: relative;
+    top: 17px;
+    
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    
+    
+}
+.nav1-element{
+    margin-left:  25px;
+    
+}
+select{
+    border-style: none;
+    opacity: 0.5;
+}
+.globe-icon{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 36px;
+    margin-left: 90px;
+}
+.sign-in{
+    position: relative;
+    top: 34px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(100, 96, 96);
+
+}
+.signup-btn{
+    width: 84px;
+    height: 38px;
+    position: relative;
+    top: 24px;
+    left: 168;
+    color: white;
+    background: #fa5320d6;
+    border-color: transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    
+}
+.sign-in,.signup-btn{
+    margin-left: 29px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.page-1{
+    width: 100%;
+    height: 100vh;
+    background:#dcdcdc47;
+    border-bottom: solid 2px lightgray;
+    z-index: 8;
+    
+}
+.sec-1 {
+    width: 100%;
+    position: absolute;
+    top: 176px;
+    
+     text-align: center;
+     
+
+
+}
+
+.heading{
+    font-size: 2.5rem;
+}
+.para1{
+    font-size: 21px;
+  color: rgb(100, 96, 96);
+  letter-spacing: normal;
+
+}
+.sec-2{
+    background-color:white;
+    width: 649px;
+    height: 173px;
+    position: absolute;
+    bottom:239px;
+    left: 435px;
+    box-shadow:0px 0px 15px
+    rgba(0, 0, 0,0.3);
+    text-align: center;
+    border-radius: 4px;
+    
+}
+
+.inp-email{
+    width:380px;
+    height: 50px;
+    border-width: thin;
+    border-color:  #fa532047;
+    border-radius: 4px;
+
+}
+.btn-email{
+    width:175px;
+    margin: 0;
+    height: 50px;
+    background-color:#fa5320d6;
+    border-radius: 4px;
+    border-color: #fa532008;
+    color: white;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+.btn-email,.inp-email{
+    position: relative;
+    top: 50px;
+}
+:placeholder-shown{
+    font-size: large;
+}
+.para2{
+    position: absolute;
+    top: 55px ;
+    position:relative;
+    right: 40px;
+    color: rgb(100, 96, 96);
+}
+.sec-3{
+    width:100%;
+    height: 150px;
+    
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: rgb(100, 96, 96);
+    
+    
+}
+.logo1st{
+    margin-right: 50px;
+    opacity: 0.3;
+    margin-top: 10px;
+
+}
+.logo2nd{
+    margin-right: 50px;
+    opacity: 0.3;
+    margin-top: 10px;
+    
+}
+.sec-4{
+    width: 100%;
+    background-color: white;
+    height: 315px;
+    text-align: center;
+    padding-top: 100px;
+    z-index: 7;
+}
+ .sec-4 label,.sec-6-left label,.sec-6-right label{
+    
+    font-weight:bold;
+    opacity:0.5;
+}
+.para3{
+    line-height:27px;
+}
+a{
+    color: rgb(75, 142, 164);
+}
+
+.sec-5{
+    width: 100%;
+    
+    height: auto;
+    display: flex;
+    border-bottom: solid 2px lightgray;
+    z-index: 6;
+
+    
+}
+.left-sec{
+    
+    display: flex;
+    flex: 1.3;
+    height: auto;
+    background-color:white;
+    
+    
+}
+.right-sec{
+    display: flex;
+    flex: 1;
+    background-color:white;
+    flex-direction: column;
+ 
+    
+
+    
+}
+.domain-img{
+width: 600px;
+position:relative;
+left: 200px;
+border-radius: 5px 5px 0 0;
+
+box-shadow:0px 0px 15px
+rgba(0, 0, 0,0.3);
+
+}
+.right-sec p{
+    opacity: 0.5;
+}
+hr{
+    
+    width: 500px;
+    
+    position: relative;
+    right: 90px;
+    opacity: 0.5;
+}
+.right-sec p{
+    line-height: 25px;
+}
+.sec-6{
+    width:100%;
+    height: 500px;;
+display: flex;
+
+background-color: white;
+
+}
+.sec-6-left{
+    position:relative;
+    top: 100px;
+    left: 250px;
+width: 400px;;
+height: 300px;
+background-color: white;
+
+
+
+
+}
+.sec-6-right{
+    position: relative;
+    top: 100px;
+    left: 350px;
+width: 350px;
+height: 300px;
+background-color:white;
+
+ 
+}
+.sec-6-left,.sec-6-right p{
+    line-height: 25px;
+    opacity: 0.8;
+
+}
+.sec-7{
+    width: 100%;
+      
+    height: 200px;
+    
+    
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+
+}
+.sec-7 img{
+    width: 150px;
+    position: relative;
+    top: 60px;
+    height: 35px;
+    z-index: 5;
+    
+}
+.sec-8{
+    width: 100%;
+    height: 700px;                                                                                                                              
+    text-align: center;
+    background-image: url( "https://media.istockphoto.com/vectors/dotted-grey-color-world-map-vector-vector-id1176637667?k=20&m=1176637667&s=612x612&w=0&h=Wk6Pa44g2gZXRz39B-d_DGPCwSHiSka5mu0c7zsrA5w="
+    );
+    background-repeat: no-repeat;
+    background-size: 700px 500px;
+    
+
+    background-position:top;
+    z-index: 4;
+     
+}
+.sec-8 h1{
+    font-weight: 100;
+    font-size: 40px;
+}
+.para-seclast{
+    line-height: 40px;
+    font-size: 23px;
+    color: rgb(100, 96, 96);
+
+}
+.sec-8 button{
+    width: 120px;
+    height: 50px;
+    background-color:#fa5320d6;
+    border-radius: 4px;
+    border-color: transparent;
+    color:white;
+    font-size: 16px;
+
+
+}
+.sec-8 h1,button{
+    position:relative;
+    top: 100px;
+}
+.para-seclast{
+    position:relative;
+    top: 110px;
+
+}
+.para-last{
+
+    position:relative;
+    top: 325px;
+    font-size:13px;
+    
+
+}
+.footer{
+    width:100%;
+    height: 65vh;
+    background-color: #1D262E;
+    display: flex;
+
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    
+
+
+
+}
+.footer1 ul{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    list-style-type: none;
+    
+}
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+} 
+.footer ul{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: 150px;
+    margin-top: 130px;
+}
+  .footer li{
+    color: white;
+    opacity: 0.5;
+  }
+.footer h3{
+    color:white;
+    font-weight: 100;
+}
+.last-footer{
+    background-color:#1D262E  ;
+    width: 100%;
+    height: 35vh;
+    
+    
+    text-align: center;
+    
+}
+.last-footer ul{
+    display: flex;
+    position: relative;
+    left: 425px;
+    top: 130px;
+    color: white;
+    opacity: 0.5;
+    font-size: small;
+    font-weight: 0;
+    
+}
+.last-footer li{
+    margin-left: 70px;
+
+}
+.last-footer label{
+    position: relative;
+    top: 100px;
+    color:white ;
+    opacity: 0.5;
+    font-size:small;
+    font-weight: 300;
+}
+.signup-btn:hover,.btn-email:hover,.sec-8 button:hover{
+background-color:#bd4d2bd6;
+}
+.footer li:hover,.sec-5 p:hover{
+    opacity: initial;
+}
+.nav1-element:hover,.navelement:hover,.sign-in:hover{
+    
+    color: #fa5320d6;
+}
+.inp-email:focus{
+    
+    outline: none;
+    
+    
+}
+ a:hover{
+    color:#0d4678;
+    
+}
+
+
+
+
+
+
+    
+
+    
+    
